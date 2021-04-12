@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*/bin
+*/obj
+./test412/test412/bin/*
+./test412/test412/obj/Debug/*

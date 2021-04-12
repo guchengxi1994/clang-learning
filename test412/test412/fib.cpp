@@ -1,7 +1,5 @@
 #include<iostream>
 
-using namespace std;
-
 int fib(int n){
     //cout<<"test"<<endl;
     if(n<=2){
