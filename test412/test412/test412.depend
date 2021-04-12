@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1618238629 source:d:\cworkspace\test412\test412\main.cpp
+	<iostream>
+	"header.h"
+
+1618238802 d:\cworkspace\test412\test412\header.h
+
