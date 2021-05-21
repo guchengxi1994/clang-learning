@@ -1,0 +1,14 @@
+﻿  ConsoleApplication1.cpp
+  t1.cpp
+  t2.cpp
+  t3.cpp
+  t4_dynamic_link.cpp
+  正在生成代码...
+t4_dynamic_link.obj : error LNK2005: "int __cdecl exportDate(void)" (?exportDate@@YAHXZ) 已经在 ConsoleApplication1.obj 中定义
+t4_dynamic_link.obj : error LNK2005: "public: void __cdecl Animal::getHigh(int)" (?getHigh@Animal@@QEAAXH@Z) 已经在 ConsoleApplication1.obj 中定义
+t4_dynamic_link.obj : error LNK2005: "public: void __cdecl Animal::getWide(int)" (?getWide@Animal@@QEAAXH@Z) 已经在 ConsoleApplication1.obj 中定义
+t4_dynamic_link.obj : error LNK2005: "public: int __cdecl Cat::outDate(void)" (?outDate@Cat@@QEAAHXZ) 已经在 ConsoleApplication1.obj 中定义
+t4_dynamic_link.obj : error LNK2005: "public: int __cdecl Dog::outDate(void)" (?outDate@Dog@@QEAAHXZ) 已经在 ConsoleApplication1.obj 中定义
+    正在创建库 D:\github_repo\clang-learning\cpp\test511\ConsoleApplication1\x64\Debug\ConsoleApplication1.lib 和对象 D:\github_repo\clang-learning\cpp\test511\ConsoleApplication1\x64\Debug\ConsoleApplication1.exp
+MSVCRTD.lib(exe_main.obj) : error LNK2019: 无法解析的外部符号 main，该符号在函数 "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 中被引用
+D:\github_repo\clang-learning\cpp\test511\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe : fatal error LNK1120: 1 个无法解析的外部命令

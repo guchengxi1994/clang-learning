@@ -2,25 +2,15 @@
 //
 
 #include <iostream>
-#include "t2.h"
+
+#include "t3.h"
+#include "t4_dynamic_link.h"
 
 using namespace std;
 
 int main()
 {
-    cout << "Hello World!\n";
-	//_calculate();
-
-	_T2_Box box =  _T2_Box();
-	box.set(100, 200, 0.5);
-
-	cout << box.getHeight()<<endl;
-
-	cout << box.getSize() << endl;
-
-	_T2_Box_Child * chd = new _T2_Box_Child;
-	chd->fun();
-	delete chd;
+	std::cout << _T3_namespace_1::getA() << std::endl;
 	
 }
 
