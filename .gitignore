@@ -2,3 +2,8 @@ rust/430/greeting/target
 python/panda3d/samples/*
 **/node_modules
 *.egg.pz
+**.exe
+**.pdb
+**/obj
+**/.vs
+**/Debug
