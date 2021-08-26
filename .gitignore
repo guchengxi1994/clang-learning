@@ -7,3 +7,5 @@ python/panda3d/samples/*
 **/obj
 **/.vs
 **/Debug
+*/.idea
+**/target
